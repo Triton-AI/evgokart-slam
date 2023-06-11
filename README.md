@@ -20,7 +20,7 @@ The race track lanes are marked by cones and there maybe some obstacles along th
 We struggled to fuse the camera and LiDAR data together using the code snippets provided by the Livox LiDAR repositories. Also, due to unreliable camera depth information due to misalignment of the RGB and Stereo depth frames because of the fisheye camera model, we used just the LiDAR for cone clustering and path planning purposes.
 
 ## Process Flow
-(media/process_flow.png)
+![Process Flow](media/process_flow.png)
 
 ## Project Structure
 ```
@@ -79,5 +79,5 @@ ros2 run tritonai_roi_depth_info path_listener
 ```
 
 ## Project Demo
-(media/demo.gif)
+![Demo](media/demo.gif)
 
