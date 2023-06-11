@@ -25,7 +25,6 @@ We struggled to fuse the camera and LiDAR data together using the code snippets 
 ## Project Structure
 ```
 evgokart-slam
-├── racetrack_lidar_rosbag        <-- contains the LiDAR rosbag of the race track for simulation
 ├── README.md                     <-- README file for this repository
 ├── requirements.txt              <-- python packages required to run
 └── src
