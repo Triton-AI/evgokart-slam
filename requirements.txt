@@ -1,0 +1,9 @@
+numba
+scipy
+icecream
+icecream
+streamlit
+plotly
+matplotlib
+numpy=1.21
+

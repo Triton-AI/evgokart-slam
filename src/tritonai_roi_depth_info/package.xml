@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>tritonai_roi_depth_info</name>
+  <version>0.0.0</version>
+  <description>Publish xyz of cones and boxes detected</description>
+  <maintainer email="triton-ai@todo.todo">triton-ai</maintainer>
+  <license>TODO: License declaration</license>
+  <depend>sensor_msgs</depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>tritonai_roi_interface</exec_depend>
+  <exec_depend>pathlib</exec_depend>
+  <exec_depend>sys</exec_depend>
+  <exec_depend>cv2</exec_depend>
+  <exec_depend>depthai</exec_depend>
+  <exec_depend>numpy</exec_depend>
+  <exec_depend>time</exec_depend>
+  <exec_depend>fsd_path_planning</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
