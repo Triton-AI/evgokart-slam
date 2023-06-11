@@ -59,7 +59,8 @@ cp -r src/tritonai_roi_depth_info/fsd_path_planning install/tritonai_roi_depth_i
 
 
 ### Replay rosbag and launch LiDAR visualization:
-In case of unavailability of LiDAR sensor, you can run the rosbag provided to simulate point cloud data of the race track. The LiDAR model we used was Livox HAP, you will need to install the respective ros2 drivers of your LiDAR sensor and run the visualization accordingly.
+In case of unavailability of LiDAR sensor, you can download, unzip and run the rosbag to simulate point cloud data of the race track. The LiDAR model we used was Livox HAP, you will need to install the respective ros2 drivers of your LiDAR sensor and run the visualization accordingly.
+Rosbag link: https://drive.google.com/file/d/1MCxhsmkrICJf60jkd13AESnsDkjP0Cc4/view?usp=sharing
 ```
 ros2 bag play race_track_lidar_rosbag/
 ros2 launch livox_ros_driver2 rviz_HAP_launch.py
