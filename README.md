@@ -42,6 +42,24 @@ cd evgokart-slam
 pip install -r requirements.txt
 ```
 
+### Installing LiDAR dependencies
+Follow: https://github.com/Triton-AI/livox_ros_driver2
+1. Install SDK
+```
+sudo apt install cmake
+git clone https://github.com/Livox-SDK/Livox-SDK.git
+cd Livox-SDK
+cd build && cmake ..
+make
+sudo make install
+```
+2. Building Driver 2 pkg
+```
+git clone https://github.com/Livox-SDK/livox_ros_driver2.git ws_livox/src/livox_ros_driver2
+source /opt/ros/foxy/setup.sh
+./build.sh ROS2
+```
+
 ### Setup ROS2 environment and build package
 Need ROS2 pre-installed. We used the ROS-Foxy version for our development.
 ```
